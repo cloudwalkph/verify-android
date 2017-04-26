@@ -8,4 +8,9 @@
         <item name="android:textColorHint">@color/colorTextLight100</item>
         <item name="android:colorControlNormal">@color/colorTextLight</item>
     </style>
+
+    <style name="AppTheme.Widget.Button" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
 </resources>
