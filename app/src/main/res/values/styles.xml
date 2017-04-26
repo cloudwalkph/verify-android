@@ -8,16 +8,20 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+    <!-- Base No Actionbar application theme. -->
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
+    <!-- Login Screen application theme. -->
+    <style name="AppTheme.LoginTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+
     <!-- Splash Screen application theme. -->
-    <style name="AppTheme.SplashScreen" parent="AppTheme">
+    <style name="AppTheme.SplashScreen" parent="AppTheme.NoActionBar">
         <item name="android:windowBackground">@drawable/splash_screen</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
     </style>
 
 </resources>
