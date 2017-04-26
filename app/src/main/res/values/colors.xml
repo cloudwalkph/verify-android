@@ -5,4 +5,6 @@
     <color name="colorDefault">#FF7300</color>
     <color name="colorDefaultDark">#ed6b00</color>
     <color name="colorAccent">#FF7300</color>
+    <color name="colorTextLight">#FFFFFF</color>
+    <color name="colorTextLight100">#f7f7f7</color>
 </resources>

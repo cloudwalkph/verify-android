@@ -6,6 +6,15 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/colorTextLight</item>
+
+        <!-- Widgets -->
+        <item name="editTextStyle">@style/AppTheme.Widget.EditText</item>
+        <item name="buttonStyle">@style/AppTheme.Widget.Button</item>
+
+        <item name="colorControlNormal">@color/colorTextLight</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
     </style>
 
     <!-- Base No Actionbar application theme. -->
@@ -24,4 +33,18 @@
         <item name="android:windowBackground">@drawable/splash_screen</item>
     </style>
 
+    <!-- Widget styles -->
+    <style name="AppTheme.Widget.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textColorLink">@color/colorTextLight</item>
+        <item name="android:color">@color/colorTextLight</item>
+        <item name="android:textColorHint">@color/colorTextLight100</item>
+        <!--<item name="backgroundTint">@color/colorTextLight</item>-->
+        <item name="android:textSize">@dimen/edit_text_size</item>
+    </style>
+
+    <style name="AppTheme.Widget.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/colorTextLight</item>
+        <!--<item name="android:background">@color/colorAccent</item>-->
+    </style>
 </resources>
