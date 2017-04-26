@@ -1,4 +1,4 @@
-package com.zomnilabs.verify.login;
+package com.zomnilabs.verify.pages.login;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
